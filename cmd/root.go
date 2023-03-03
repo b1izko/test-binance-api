@@ -8,7 +8,7 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "test-binance-api",
-	Short: "A brief description of your application",
+	Short: "Getting data from the Binance API",
 }
 
 func Execute() {
